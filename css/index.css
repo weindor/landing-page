@@ -77,11 +77,11 @@ nav {
 	border-bottom-right-radius: 50px; 
 
 }
-#begin { background: #ccccb3; }
-#why { background: #3d3d29; }
-#contact { background: #ccccb3; }
-#follow { background: #3d3d29; }
-#home { background: #ccccb3; }
+#intro { background: #ccccb3; }
+#tocode { background: #3d3d29; }
+#contacted { background: #ccccb3; }
+#followus { background: #3d3d29; }
+#homepage { background: #ccccb3; }
 
 h1 {
     font-family: 'Roboto Condensed', sans-serif;
