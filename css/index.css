@@ -82,3 +82,20 @@ nav {
 #contact { background: #ccccb3; }
 #follow { background: #3d3d29; }
 #home { background: #ccccb3; }
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#begin {
+    background:
+     url(img/peple at work.jpg)    
+    position: relative
+
+
+img { 
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}         
+                        
