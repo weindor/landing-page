@@ -5,8 +5,16 @@ body {
    }
 
 #home {
-    background: url('img/peopleatwork.jpg')
-    
+	width: 100%;
+	height: 450px;
+	background-image: url('../img/peopleatwork.png');
+}
+
+#home h1{
+	padding-top: 130px;
+	text-align: center;
+	color: #FFF;
+	font-size: 100px;
 }
 
 
