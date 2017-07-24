@@ -1,5 +1,13 @@
+body {
+    max-width: 940px ; 
+    min-width: 320px ;
+    margin: 0 auto
+    
+}
+
+
 nav {
-	width: 960px;
+	width: 940px;
 	height: 100px;
 	margin: 120px auto;
 	text-align: center;
@@ -11,7 +19,7 @@ nav {
 	position: relative;
 	-webkit-transition: all 0.3s ease; 
 	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease
 }
 .top-menu li:hover {
 	margin: 30px 20px; 
@@ -33,7 +41,7 @@ nav {
 	text-shadow: 0px 1px 1px rgba(0,0,0,0.4), 0px 4px 6px rgba(0,0,0,0.1), 0px 9px 11px rgba(0,0,0,0.1);
 	-webkit-transition: all 0.1s linear; 
 	-moz-transition: all 0.1s linear;
-	-o-transition: all 0.1s linear;
+	-o-transition: all 0.1s linear
 }
 .top-menu li:active a {
 	font-size: 26px;
@@ -82,10 +90,11 @@ nav {
 #contacted { background: #ccccb3; }
 #followus { background: #3d3d29; }
 #homepage { background: #ccccb3; }
-
 h1 {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-
+#join {
+    width="1250" height="400";
+}
                         
