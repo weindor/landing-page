@@ -79,18 +79,21 @@ img.width-img {
     
 
 
-.figure-img-text{
-    margin-top: 15px;
-    display: flex;
-    justify-content: center;
-    flex: 0 1 auto;
-}
+.figure-img-text {
+   display:flex;
+   justify-content:space-between;
+   
+   
+  
+  }
+  
+.strong-text {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600; 
+    padding-left: 5px;
+{    
 
-.strong-text{
-    font-family:sans-serif;
-    font-size:31px;
-    font-weight:600;
-}
 
 
 
