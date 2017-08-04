@@ -91,7 +91,7 @@ hr {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    font-size: 50px;
+   
 }
 
 @media (max-width: 510px) {
@@ -127,11 +127,19 @@ hr {
     }
 }
 
-#why img {
+#why {
     background-image: url('../img/background.png');
     background-size: cover;
     max-width: 100%;
+    
+    text-colur: 
+    height: 100%;
+    padding: 200px;
+    background-size: cover;
+    background-position: 50%;
+    margin: 0 auto;
 }
+
 
 h3 {
     display:flex;
@@ -140,7 +148,13 @@ h3 {
 }     
     
 
-
+#why-list {
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    
+    
+}
 
  #join {
     background-size: cover;
@@ -158,11 +172,97 @@ h3 {
     background-image: url('../img/shinyforest.jpg');
 }
 
-#follow img {
+#follow {
     background-image: url('../img/bluesky.jpg');
     background-size: cover;
-    max-width: 100%;
-    width: 100%;
-    height: 100vh;
 }
 
+
+.footer {
+    display:flex;
+    justify-content:space-around;
+}
+
+.footer img {
+    height: 25px;    
+    
+}
+
+.text-why-list {
+    text-align: center;
+        display: block;
+        margin-bottom: 50px;
+}
+
+
+#contact {
+    background-size: cover;
+    background-image: url('../img/shinyforest.jpg');
+    box-sizing: border-box;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.form {
+    margin-top: 50px;
+    text-align: center;
+    width: 340px;
+    box-sizing: border-box;
+    margin: auto;
+    border-radius: 5px;
+    background: #FFF;
+}
+
+.form_header {
+    font-size: 30px;
+    color: gray;
+    font-weight: bold;
+    padding-top: 45px;
+}
+
+.form_content {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.form_row > * {
+    margin: 5px 0;
+}
+
+.form_row > input, textarea {
+    background: #eeeeee;
+    width: 70%;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.form_footer{
+    padding-bottom: 15px;
+}
+
+.form_row_btn > button {
+    width: 80%;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background: blue;
+}
+
+.form_row_btn > button:hover {
+     background: #2cb167;
+}
+
+.form_row_btn > button:active {
+    box-shadow: 0px 0px 1px 0 rgba(0,0,0,.2);
+}
+
+.form_row_link {
+    padding-top: 15px;
+}
+
+.form_row_link > a {
+    color: darkblue;
+}
